@@ -1,0 +1,51 @@
+body {
+  background-color: black;
+  color:white;
+  text-align: center;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.gameOver {
+  margin-top: 100px;
+  margin-left: 60px;
+  display: none;
+  background-size: 100%;
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  border-radius: 30px;
+  background-color: rgba(0, 255, 255, 0.299);
+  transition: all 0.5s ease-out;
+
+}
+.gameOver h2{
+  margin: 50px, auto;
+  color: red;
+}
+
+.gameOver button{
+  background-color: rgb(170, 3, 3);
+  border-radius: 20px;
+  width: 100px;
+  height: 40px;
+  font-weight: bold;
+}
+
+.winner {
+  display: none;
+}
+
+
+
+
+/* .formLine {
+  margin:10px;
+  padding:10px;
+  background-color: cornflowerblue;
+} */
